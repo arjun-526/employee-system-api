@@ -4,6 +4,10 @@ import lombok.Data;
 
 @Data
 public class Employee {
+	
+	public Employee() {
+		
+	}
 
 	public long getId() {
 		return id;
